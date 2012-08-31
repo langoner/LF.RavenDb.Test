@@ -12,6 +12,7 @@ namespace LF.RavenDb.Test.ScriptedPatchPerformance
 {
     public class ScopeIndex : AbstractMultiMapIndexCreationTask<SocialMask>
     {
+
         public ScopeIndex()
         {
             AddMap<SocialMask>(masks => from mask in masks
